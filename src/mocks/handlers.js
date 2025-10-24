@@ -29,6 +29,6 @@ export const handlers = [
       return res(ctx.status(404), ctx.json({ message: "Invalid ID" }));
     }
     question.correctIndex = correctIndex;
-    return res(ctx.json(question));
+    return res(ctx.json({ ...question }));
   }),
 ];

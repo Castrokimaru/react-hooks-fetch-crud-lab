@@ -1,0 +1,4 @@
+- [x] Update App.js: add useState for questions, implement fetchQuestions, addQuestion, deleteQuestion, updateQuestion functions
+- [x] Update QuestionList.js: add useEffect to fetch questions on mount, map questions to QuestionItem components
+- [x] Update QuestionItem.js: add onClick handler for delete button, onChange handler for select to update correctIndex
+- [x] Update QuestionForm.js: implement handleSubmit to add new question, reset form after submit
